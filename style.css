@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@300;700&family=Ubuntu&display=swap');
 
-html, body{
+html,
+body {
     margin: 0px;
     padding: 0px;
     width: 100%;
@@ -14,13 +15,13 @@ html, body{
     box-sizing: border-box;
 } */
 
-body{
+body {
     height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
-header{
+header {
     background-color: #241023;
     color: #EECF6D;
     /* height: fit-content; */
@@ -31,30 +32,31 @@ header{
     min-height: 200px;
 }
 
-h1, nav{
-      display: inline-block; 
-      flex-grow: 1;
-      text-align: center;
-      flex-basis: 0; 
-      color: #EECF6D;
-      letter-spacing: 0.1rem;
-      flex-basis: 0;
+h1,
+nav {
+    display: inline-block;
+    flex-grow: 1;
+    text-align: center;
+    flex-basis: 0;
+    color: #EECF6D;
+    letter-spacing: 0.1rem;
+    flex-basis: 0;
 }
 
-h1{
+h1 {
     font-size: 42px;
 }
 
-a{
+a {
     color: #EECF6D;
-  text-decoration: none;
+    text-decoration: none;
 }
 
-a:hover{
+a:hover {
     text-decoration: underline
 }
 
-main{
+main {
     flex-grow: 6;
     flex-basis: 0;
     /* background-color: #916C80; */
@@ -62,53 +64,66 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    color:  #EECF6D;;
+    color: #EECF6D;
+    ;
     font-size: large;
 }
 
-img{
+img {
     /* margin-top: 30px; */
     width: 200px;
 }
 
-.main-text{
+.main-text {
     max-width: 300px;
     min-width: none;
     text-align: center;
 }
 
-footer{
+footer {
     flex-grow: 2;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #241023;
     color: #EECF6D;
-    min-height: 200px;
+    min-height: 180px;
 }
 
-small{
-    padding: 30px;
+small {
+    padding-top: 30px;
 }
 
-.title-span{
-    margin: 30px;
+.spacer {
+    height: 30px;
 }
 
-.row{
+.title-span {
+    margin-bottom: 30px;
+}
+
+.row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 500px;
 }
 
-.column{
+.column {
     display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
 }
 
-li{
+li {
     list-style: none;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
