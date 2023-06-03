@@ -49,7 +49,7 @@ h1 {
 
 a {
     color: #EECF6D;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
 a:hover {
@@ -95,7 +95,7 @@ small {
 }
 
 .spacer {
-    height: 30px;
+    min-height: 30px;
 }
 
 .title-span {
@@ -118,6 +118,7 @@ small {
 
 li {
     list-style: none;
+    text-align: center;
 }
 
 .list {
